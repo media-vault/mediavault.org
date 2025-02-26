@@ -1,0 +1,28 @@
+{
+  "name": "mediavault.org",
+  "version": "1.0.0",
+  "description": "MediaVault Project website, blog, and user documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "docusaurus start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/media-vault/mediavault.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/media-vault/mediavault.org/issues"
+  },
+  "homepage": "https://github.com/media-vault/mediavault.org#readme",
+  "devDependencies": {
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0"
+  },
+  "script": {
+    "start": "docusaurus start"
+  }
+}
