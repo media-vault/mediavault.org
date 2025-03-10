@@ -1,10 +1,10 @@
 module.exports = {
   title: 'MediaVault',
   tagline: 'Your MediaVault Documentation',
-  url: 'https://your-domain.com',
+  url: 'http://localhost:3000',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'your-github-username',
+  organizationName: 'garnetraven',
   projectName: 'mediavault',
   themeConfig: {
     navbar: {
@@ -16,6 +16,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+            routeBasePath: '/docs/',
           sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
