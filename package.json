@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "docusaurus start",
+    "build": "docusaurus build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,11 +19,16 @@
     "url": "https://github.com/media-vault/mediavault.org/issues"
   },
   "homepage": "https://github.com/media-vault/mediavault.org#readme",
-  "devDependencies": {
-    "@docusaurus/core": "^3.7.0",
-    "@docusaurus/preset-classic": "^3.7.0"
-  },
   "script": {
     "start": "docusaurus start"
+  },
+  "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^1.2.0",
+    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/plugin-content-blog": "^2.4.3",
+    "@docusaurus/plugin-content-docs": "^2.4.3",
+    "@docusaurus/plugin-content-pages": "^2.4.3",
+    "@docusaurus/preset-classic": "^2.4.3",
+    "@docusaurus/theme-classic": "^2.4.3"
   }
 }

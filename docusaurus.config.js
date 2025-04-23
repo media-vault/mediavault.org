@@ -9,6 +9,18 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'MediaVault',
+      items: [
+        { to: '/blog', label: 'Blog', position: 'right' },
+        { to: '/downloads', label: 'Downloads', position: 'right' },
+        { to: '/contribute', label: 'Contribute', position: 'right' },
+        { to: '/docs', label: 'Documentation', position: 'right' },
+        { to: '/contact', label: 'Contact', position: 'right' },
+        { to: '/forum', label: 'Forum', position: 'right' },
+        {
+          type: 'search',
+          position: 'right',
+        },
+      ],
     },
   },
   presets: [
@@ -24,5 +36,15 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
+      [
+        require.resolve('@cmfcmf/docusaurus-search-local'),
+        {
+            indexDocs: true,
+            indexBlog: true,
+            indexPages: true,
+        },
+      ],
   ],
 };
