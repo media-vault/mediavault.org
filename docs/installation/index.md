@@ -9,8 +9,6 @@ Currently you can only install building from the source. In the future, we will 
 - Container
 - Linux
 - Windows
-- TrueNAS SCALE
-- Synology
 - macOS
 
 :::
