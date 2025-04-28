@@ -19,8 +19,35 @@ All package builds begin with these steps:
     - Docker
     - Docker-compose
 
+3. Add .env file at the root of the project directory
 
-3. Run the build script.
+    ```
+    SPRING_DATASOURCE_URL=jdbc:postgres://localhost:5432/mediavault
+    SPRING_DATASOURCE_USERNAME=admin
+    SPRING_DATASOURCE_PASSWORD=admin
+    ```
+
+4. Add application.properties file to /src/main/resources
+
+    ```
+    server.port=8080
+    server.address=0.0.0.0
+
+    spring.config.import=optional:file:.env[.properties]
+
+    spring.datasource.url=jdbc:postgres://localhost:5432/mediavault
+    spring.datasource.username=admin
+    spring.datasource.password=admin
+    spring.datasource.driver-class-name=org.postgresql.Driver
+
+    spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.show-sql=true
+
+    logging.level.org.springframework.security=DEBUG
+    ```
+
+5. Run the build script.
 
     ```sh
     ./build.sh
