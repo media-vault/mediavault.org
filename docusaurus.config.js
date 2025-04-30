@@ -22,6 +22,20 @@ module.exports = {
         },
       ],
     },
+    footer : {
+        links: [
+            {
+                title: "Documentation",
+                items: [
+                    {
+                        label: "Documentation",
+                        to: "docs/",
+                    },
+                ],
+            },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} MediaVault`
+    },
   },
   presets: [
     [
