@@ -4,8 +4,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
-import Footer from '../components/footer';
-
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -80,7 +78,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <Footer />
     </Layout>
   );
 }
