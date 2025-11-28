@@ -2,15 +2,15 @@
 
 As an alternative to using binary packages, you can build from source.
 
-MediaVault supports only one method of building for different platoforms for now below.
+LibreUno supports only one method of building for different platoforms for now below.
 
 All package builds begin with these steps:
 
 1. Clone the repository.
 
     ```sh
-    git clone https://github.com/media-vault/mediavault
-    cd mediavault
+    git clone https://github.com/libreuno/libreuno
+    cd libreuno 
     ```
 
 2. Make sure you have these dependencies.

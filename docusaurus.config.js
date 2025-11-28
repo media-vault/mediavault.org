@@ -1,14 +1,14 @@
 module.exports = {
-  title: 'MediaVault',
-  tagline: 'Your MediaVault Documentation',
+  title: 'LibreUno',
+  tagline: 'Your LibreUno Documentation',
   url: 'http://localhost:3000',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'garnetraven',
-  projectName: 'mediavault',
+  organizationName: 'libreuno',
+  projectName: 'libreuno',
   themeConfig: {
     navbar: {
-      title: 'MediaVault',
+      title: 'LibreUno',
       items: [
         { to: '/blog', label: 'Blog', position: 'right' },
         { to: '/downloads', label: 'Downloads', position: 'right' },
@@ -34,7 +34,7 @@ module.exports = {
                 ],
             },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MediaVault`
+        copyright: `Copyright © ${new Date().getFullYear()} LibreUno`
     },
   },
   presets: [

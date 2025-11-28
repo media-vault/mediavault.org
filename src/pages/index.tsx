@@ -25,9 +25,9 @@ export default function Home() {
       <main>
         <section className="margin-vert--xl text--center">
           <div className="container">
-            <h2>Why MediaVault?</h2>
+            <h2>Why LibreUno?</h2>
             <p>
-              MediaVault is a modern, open-source media server you can host yourself — 
+              LibreUno is a modern, open-source media server you can host yourself — 
               built for privacy, flexibility, and control over your media library.
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function Home() {
         <section className="margin-vert--xl text--center">
           <div className="container">
             <h2>Ready to Get Started?</h2>
-            <p>Check out the docs to learn how to install, configure, and contribute to MediaVault.</p>
+            <p>Check out the docs to learn how to install, configure, and contribute to LibreUno.</p>
             <Link className="button button--primary button--lg" to="/docs">
               Start Exploring
             </Link>

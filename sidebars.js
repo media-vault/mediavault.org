@@ -38,7 +38,7 @@ module.exports = {
     {
       type: "doc",
       id: "about",
-      label: "About MediaVault",
+      label: "About LibreUno",
     },
     {
       type: "doc",

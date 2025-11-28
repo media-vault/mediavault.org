@@ -1,8 +1,8 @@
-# Contributing to MediaVault
+# Contributing to LibreUno 
 
-Thank you for your interest in contributing to the MediaVault project! This page and its children describe the ways you can contribute, as well as some of our policies. This should help guide you through your first Issue or PR.
+Thank you for your interest in contributing to the LibreUno project! This page and its children describe the ways you can contribute, as well as some of our policies. This should help guide you through your first Issue or PR.
 
-Even if you cannot contribute code, you can still help MediaVault! The two main things you can help with are testing and creating issues. Contributing to code, documentation, translations, and other non-code components are all outlined in the sections below.
+Even if you cannot contribute code, you can still help LibreUno! The two main things you can help with are testing and creating issues. Contributing to code, documentation, translations, and other non-code components are all outlined in the sections below.
 
 ## Reporting Issues
 
@@ -22,8 +22,8 @@ Documentation is incredibly helpful! All these docs are written using [Docusauru
 
 ## Translating
 
-If you're interested in helping to translate MediaVault into your local language, we use [Weblate](https://weblate.org/en) running at [translate.mediavault.org](https://translate.mediavault.org) to handle translations. These are collected in the `translations` branches of the various repositories and are merged into the `main` branches before each release.
+If you're interested in helping to translate LibreUno into your local language, we use [Weblate](https://weblate.org/en) running at [translate.mediavault.org](https://translate.mediavault.org) to handle translations. These are collected in the `translations` branches of the various repositories and are merged into the `main` branches before each release.
 
 ## Testing
 
-Testing is the easiest way to contribute. Simply use MediaVault, and if you run into problems, [let us know](/docs/getting-help). This is the most common way we uncover bugs, through a user doing something we hadn't thought about. If the issue does end up being related to the code, a [bug issue](/docs/contributing/issues#reporting-bugs) can then be opened.
+Testing is the easiest way to contribute. Simply use LibreUno, and if you run into problems, [let us know](/docs/getting-help). This is the most common way we uncover bugs, through a user doing something we hadn't thought about. If the issue does end up being related to the code, a [bug issue](/docs/contributing/issues#reporting-bugs) can then be opened.

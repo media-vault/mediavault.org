@@ -1,6 +1,6 @@
 # Quick Start
 
-1. Install MediaVault on [your system](/docs/installation) with the installation method for your platform.
+1. Install LibreUno on [your system](/docs/installation) with the installation method for your platform.
 
 2. Edit the application.properties file to your specific server ip and port needs 
 
