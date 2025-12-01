@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/libretekka/libretekka/main/libretekka_banner.jpeg?sanitize=true"/>
+<img alt="Logo Banner" src="https://raw.githubusercontent.com/libretekka/libretekka-ux/main/libretekka_banner.jpeg?sanitize=true"/>
 </p>
 
 # libretekka.org
