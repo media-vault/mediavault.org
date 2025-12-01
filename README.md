@@ -1,12 +1,12 @@
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/libreuno/libreuno-ux/main/libreuno_banner.png?sanitize=true"/>
+<img alt="Logo Banner" src="https://raw.githubusercontent.com/libretekka/libretekka/main/libretekka_banner.jpeg?sanitize=true"/>
 </p>
 
-# libreuno.org
+# libretekka.org
 
-The official website and documentation for The LibreUno Project.
+The official website and documentation for The Libretekka Project.
 
-The goal of this project is to keep all information related to The LibreUno Project all in one place for ease of access.
+The goal of this project is to keep all information related to The Libretekka Project all in one place for ease of access.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
